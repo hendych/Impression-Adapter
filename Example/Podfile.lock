@@ -1,0 +1,16 @@
+PODS:
+  - ImpressionAdapter (0.1.0)
+
+DEPENDENCIES:
+  - ImpressionAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  ImpressionAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImpressionAdapter: 21aab3a7a0a0e80e47111a41eda93cb7a5e6c247
+
+PODFILE CHECKSUM: 1f9cb8a66eb3f89b6d0418a14d84525f0128f90b
+
+COCOAPODS: 1.2.1

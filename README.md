@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ImpressionAdapter.svg?style=flat)](http://cocoapods.org/pods/ImpressionAdapter)
 [![Platform](https://img.shields.io/cocoapods/p/ImpressionAdapter.svg?style=flat)](http://cocoapods.org/pods/ImpressionAdapter)
 
+Impression tracker with adapter pattern in UITableView and UICollectionView
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +24,7 @@ pod "ImpressionAdapter"
 
 ## Author
 
-hendych, hendy@kurio.co.id
+Hendy Christianto, hendychrst90@gmail.com
 
 ## License
 

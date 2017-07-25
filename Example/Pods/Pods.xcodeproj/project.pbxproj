@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6A8561DC69DA1950CF499B7BA783D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E1E0B46D69611108E5E4FBFC2AF46A3 /* ImpressionAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D15E6C3401280555672DD8F7A990327 /* ImpressionAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80419F0A895B643231D91BDE9631898F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66D0D866E2E32882DDA5EC8479B37D /* ReplaceMe.swift */; };
+		83FD9BE91ADAF5BBB6EB31541DE70372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F2371DD98EC1FD70194376426ADA5D0 /* Pods-ImpressionAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D25495644E4B8E6AD271BEAF2556A5 /* Pods-ImpressionAdapter_Example-dummy.m */; };
+		A3F2006CF14E627DBC376C62594C644F /* Pods-ImpressionAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FA88C03BCF7B804E4B3A82545F74FA /* Pods-ImpressionAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0B58F37E30777ADFD2515EC49D8424 /* Pods-ImpressionAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287772DB5571DBD7E0DA9C5C61E28B5D /* Pods-ImpressionAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55BA7084DD26F615E67616E1523E33E /* Pods-ImpressionAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964BD60F33762677273F4E2298CECBA /* Pods-ImpressionAdapter_Tests-dummy.m */; };
+		E5AE541B2BFE147E3FE5CA6C5D96448C /* ImpressionAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D98CDC169D0BF5C74B910ADED13FE7 /* ImpressionAdapter-dummy.m */; };
+		EC033A9A7E80CC0FF2FE93AEFC3D7717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874500E4556388C18A1364337033E2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F665D1329F4F22115344D061F53229D9;
+			remoteInfo = ImpressionAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042BE8B4C5DB06E64855124ACE83C6BE /* Pods-ImpressionAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImpressionAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27FA88C03BCF7B804E4B3A82545F74FA /* Pods-ImpressionAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImpressionAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		287772DB5571DBD7E0DA9C5C61E28B5D /* Pods-ImpressionAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImpressionAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
+		29EA54D8F2797B9FE8B5E6917FA9C786 /* Pods-ImpressionAdapter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImpressionAdapter_Example-resources.sh"; sourceTree = "<group>"; };
+		39978C68B1C10A3B1FBFD9AF82D93D04 /* Pods-ImpressionAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImpressionAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3C63524125877670F7150BAE95574CAA /* Pods-ImpressionAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImpressionAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EC932F373F3778986C58533D670F68E /* Pods-ImpressionAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImpressionAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5964BD60F33762677273F4E2298CECBA /* Pods-ImpressionAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImpressionAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E084FF1D7442B379E152F1B586128ED /* ImpressionAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImpressionAdapter-prefix.pch"; sourceTree = "<group>"; };
+		63D25495644E4B8E6AD271BEAF2556A5 /* Pods-ImpressionAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImpressionAdapter_Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		727BBE537CA13D2F94071D8DD11C2AEF /* Pods-ImpressionAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImpressionAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B92C5BD79A081BE5C33A6975A28B219 /* ImpressionAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImpressionAdapter.xcconfig; sourceTree = "<group>"; };
+		7D15E6C3401280555672DD8F7A990327 /* ImpressionAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImpressionAdapter-umbrella.h"; sourceTree = "<group>"; };
+		8BE7170A1D898B2FB29B1194AA2122FB /* ImpressionAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImpressionAdapter.framework; path = ImpressionAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D98CDC169D0BF5C74B910ADED13FE7 /* ImpressionAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImpressionAdapter-dummy.m"; sourceTree = "<group>"; };
+		A298E6053169C1E5095F2C687BD7FA37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A933BC92D011744A41F84EE53C60AD0F /* Pods-ImpressionAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImpressionAdapter_Tests.modulemap"; sourceTree = "<group>"; };
+		B81F15D2AACD4F08491D7F6B0582D2CB /* Pods-ImpressionAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImpressionAdapter_Example.modulemap"; sourceTree = "<group>"; };
+		B852D936BCA8BA516DFB7F54EE1B60B2 /* Pods_ImpressionAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImpressionAdapter_Tests.framework; path = "Pods-ImpressionAdapter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8F19F0BE9EE478C1693E8F1CB29EF7 /* Pods-ImpressionAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImpressionAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB66D0D866E2E32882DDA5EC8479B37D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		CB81FB30CFD3AC288F402C5A9571ED2A /* Pods-ImpressionAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImpressionAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC650E346B0C6E61275707478391514 /* Pods-ImpressionAdapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImpressionAdapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E6FE17087A7716AB0B06869FFB5EC37F /* Pods-ImpressionAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImpressionAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F05CD230141734604D63A66DA578A358 /* ImpressionAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImpressionAdapter.modulemap; sourceTree = "<group>"; };
+		F1484B99391077A3C1550FA6114ACA5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DA114F44C4C73D7CC76AE07BD25C78 /* Pods-ImpressionAdapter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImpressionAdapter_Tests-resources.sh"; sourceTree = "<group>"; };
+		FB6389B5E3A82E8C3A585E8BE64155F1 /* Pods-ImpressionAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImpressionAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD3BA17F1C305D7357B5DEE400D85169 /* Pods_ImpressionAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImpressionAdapter_Example.framework; path = "Pods-ImpressionAdapter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF050E4118CFC989C7D5D881A65F0860 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345437F160FCC37A8DB4FA8A685EFC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6A8561DC69DA1950CF499B7BA783D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4E4A895D5DDAA12DB8AFFC32948D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD9BE91ADAF5BBB6EB31541DE70372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7876189FAEA314F570BF870573FDC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC033A9A7E80CC0FF2FE93AEFC3D7717 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047CE3789745A1AD714E9B089DF4085C /* ImpressionAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				7149D7FC2A251CE29EFB2C5477D12C41 /* Classes */,
+			);
+			name = ImpressionAdapter;
+			path = ImpressionAdapter;
+			sourceTree = "<group>";
+		};
+		3AC6B2097CEAB8CD41661D4F7FF88314 /* Pods-ImpressionAdapter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A298E6053169C1E5095F2C687BD7FA37 /* Info.plist */,
+				B81F15D2AACD4F08491D7F6B0582D2CB /* Pods-ImpressionAdapter_Example.modulemap */,
+				BD8F19F0BE9EE478C1693E8F1CB29EF7 /* Pods-ImpressionAdapter_Example-acknowledgements.markdown */,
+				727BBE537CA13D2F94071D8DD11C2AEF /* Pods-ImpressionAdapter_Example-acknowledgements.plist */,
+				63D25495644E4B8E6AD271BEAF2556A5 /* Pods-ImpressionAdapter_Example-dummy.m */,
+				E6FE17087A7716AB0B06869FFB5EC37F /* Pods-ImpressionAdapter_Example-frameworks.sh */,
+				29EA54D8F2797B9FE8B5E6917FA9C786 /* Pods-ImpressionAdapter_Example-resources.sh */,
+				287772DB5571DBD7E0DA9C5C61E28B5D /* Pods-ImpressionAdapter_Example-umbrella.h */,
+				39978C68B1C10A3B1FBFD9AF82D93D04 /* Pods-ImpressionAdapter_Example.debug.xcconfig */,
+				4EC932F373F3778986C58533D670F68E /* Pods-ImpressionAdapter_Example.release.xcconfig */,
+			);
+			name = "Pods-ImpressionAdapter_Example";
+			path = "Target Support Files/Pods-ImpressionAdapter_Example";
+			sourceTree = "<group>";
+		};
+		41C3D28134BF1EC54EB459BD2DA17F6E /* Pods-ImpressionAdapter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF050E4118CFC989C7D5D881A65F0860 /* Info.plist */,
+				A933BC92D011744A41F84EE53C60AD0F /* Pods-ImpressionAdapter_Tests.modulemap */,
+				3C63524125877670F7150BAE95574CAA /* Pods-ImpressionAdapter_Tests-acknowledgements.markdown */,
+				FB6389B5E3A82E8C3A585E8BE64155F1 /* Pods-ImpressionAdapter_Tests-acknowledgements.plist */,
+				5964BD60F33762677273F4E2298CECBA /* Pods-ImpressionAdapter_Tests-dummy.m */,
+				CCC650E346B0C6E61275707478391514 /* Pods-ImpressionAdapter_Tests-frameworks.sh */,
+				F7DA114F44C4C73D7CC76AE07BD25C78 /* Pods-ImpressionAdapter_Tests-resources.sh */,
+				27FA88C03BCF7B804E4B3A82545F74FA /* Pods-ImpressionAdapter_Tests-umbrella.h */,
+				CB81FB30CFD3AC288F402C5A9571ED2A /* Pods-ImpressionAdapter_Tests.debug.xcconfig */,
+				042BE8B4C5DB06E64855124ACE83C6BE /* Pods-ImpressionAdapter_Tests.release.xcconfig */,
+			);
+			name = "Pods-ImpressionAdapter_Tests";
+			path = "Target Support Files/Pods-ImpressionAdapter_Tests";
+			sourceTree = "<group>";
+		};
+		48235D1F71DD78AB98CE3D4DC0C4140E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60762863703C6B95CF2CA2F70547BCA2 /* ImpressionAdapter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5DF2494B86084A966675998EC29CC42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE7170A1D898B2FB29B1194AA2122FB /* ImpressionAdapter.framework */,
+				FD3BA17F1C305D7357B5DEE400D85169 /* Pods_ImpressionAdapter_Example.framework */,
+				B852D936BCA8BA516DFB7F54EE1B60B2 /* Pods_ImpressionAdapter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60762863703C6B95CF2CA2F70547BCA2 /* ImpressionAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				047CE3789745A1AD714E9B089DF4085C /* ImpressionAdapter */,
+				D5FD1FD8F2E9BD95FBE24CF6486766DF /* Support Files */,
+			);
+			name = ImpressionAdapter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7149D7FC2A251CE29EFB2C5477D12C41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB66D0D866E2E32882DDA5EC8479B37D /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				48235D1F71DD78AB98CE3D4DC0C4140E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5DF2494B86084A966675998EC29CC42C /* Products */,
+				CC70D499AF5B930A0258AA95CC211C37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC70D499AF5B930A0258AA95CC211C37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6B2097CEAB8CD41661D4F7FF88314 /* Pods-ImpressionAdapter_Example */,
+				41C3D28134BF1EC54EB459BD2DA17F6E /* Pods-ImpressionAdapter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5FD1FD8F2E9BD95FBE24CF6486766DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05CD230141734604D63A66DA578A358 /* ImpressionAdapter.modulemap */,
+				7B92C5BD79A081BE5C33A6975A28B219 /* ImpressionAdapter.xcconfig */,
+				94D98CDC169D0BF5C74B910ADED13FE7 /* ImpressionAdapter-dummy.m */,
+				5E084FF1D7442B379E152F1B586128ED /* ImpressionAdapter-prefix.pch */,
+				7D15E6C3401280555672DD8F7A990327 /* ImpressionAdapter-umbrella.h */,
+				F1484B99391077A3C1550FA6114ACA5B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImpressionAdapter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35A1A525C95F248C879E1328AA1FD208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F2006CF14E627DBC376C62594C644F /* Pods-ImpressionAdapter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B341CAAD6F567D3688A81BC4007D8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1E0B46D69611108E5E4FBFC2AF46A3 /* ImpressionAdapter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA32E4AD2279F7ABA54A69B6A3370204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0B58F37E30777ADFD2515EC49D8424 /* Pods-ImpressionAdapter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EAFC096A616154944D2FC5008BF6E8F /* Pods-ImpressionAdapter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2083967E984DB27FADA95027E3B45B63 /* Build configuration list for PBXNativeTarget "Pods-ImpressionAdapter_Tests" */;
+			buildPhases = (
+				A2FC7370DEA8F8BB31C714D0C86E7A00 /* Sources */,
+				345437F160FCC37A8DB4FA8A685EFC60 /* Frameworks */,
+				35A1A525C95F248C879E1328AA1FD208 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ImpressionAdapter_Tests";
+			productName = "Pods-ImpressionAdapter_Tests";
+			productReference = B852D936BCA8BA516DFB7F54EE1B60B2 /* Pods_ImpressionAdapter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF1CF108DACDD48A9523E5DB40BE3574 /* Pods-ImpressionAdapter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C2DD8F7DE5D73B27DF17DD409FE89C /* Build configuration list for PBXNativeTarget "Pods-ImpressionAdapter_Example" */;
+			buildPhases = (
+				4A9AA96ADB022B0BB3920CBD02A825E6 /* Sources */,
+				8B4E4A895D5DDAA12DB8AFFC32948D16 /* Frameworks */,
+				DA32E4AD2279F7ABA54A69B6A3370204 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D993F051128E8D6FCCF418A59EB773C /* PBXTargetDependency */,
+			);
+			name = "Pods-ImpressionAdapter_Example";
+			productName = "Pods-ImpressionAdapter_Example";
+			productReference = FD3BA17F1C305D7357B5DEE400D85169 /* Pods_ImpressionAdapter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F665D1329F4F22115344D061F53229D9 /* ImpressionAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8378E44DB992933306BFCB95341CB7 /* Build configuration list for PBXNativeTarget "ImpressionAdapter" */;
+			buildPhases = (
+				3F90F0D16EEB0DE77AD5E15F5A319C78 /* Sources */,
+				B7876189FAEA314F570BF870573FDC58 /* Frameworks */,
+				98B341CAAD6F567D3688A81BC4007D8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImpressionAdapter;
+			productName = ImpressionAdapter;
+			productReference = 8BE7170A1D898B2FB29B1194AA2122FB /* ImpressionAdapter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5DF2494B86084A966675998EC29CC42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F665D1329F4F22115344D061F53229D9 /* ImpressionAdapter */,
+				BF1CF108DACDD48A9523E5DB40BE3574 /* Pods-ImpressionAdapter_Example */,
+				1EAFC096A616154944D2FC5008BF6E8F /* Pods-ImpressionAdapter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F90F0D16EEB0DE77AD5E15F5A319C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AE541B2BFE147E3FE5CA6C5D96448C /* ImpressionAdapter-dummy.m in Sources */,
+				80419F0A895B643231D91BDE9631898F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A9AA96ADB022B0BB3920CBD02A825E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2371DD98EC1FD70194376426ADA5D0 /* Pods-ImpressionAdapter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FC7370DEA8F8BB31C714D0C86E7A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55BA7084DD26F615E67616E1523E33E /* Pods-ImpressionAdapter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D993F051128E8D6FCCF418A59EB773C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImpressionAdapter;
+			target = F665D1329F4F22115344D061F53229D9 /* ImpressionAdapter */;
+			targetProxy = 874500E4556388C18A1364337033E2B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6D12471AA2B905485E1EF603AF3925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39978C68B1C10A3B1FBFD9AF82D93D04 /* Pods-ImpressionAdapter_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImpressionAdapter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImpressionAdapter_Example/Pods-ImpressionAdapter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImpressionAdapter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		426FFCC65F80A917C5673AF1A156443D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B92C5BD79A081BE5C33A6975A28B219 /* ImpressionAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImpressionAdapter/ImpressionAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImpressionAdapter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImpressionAdapter/ImpressionAdapter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImpressionAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FBA8251DBA098A2A73D28FD5FDA1506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB81FB30CFD3AC288F402C5A9571ED2A /* Pods-ImpressionAdapter_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImpressionAdapter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImpressionAdapter_Tests/Pods-ImpressionAdapter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImpressionAdapter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57E506E5FC06FF58568343E83480435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042BE8B4C5DB06E64855124ACE83C6BE /* Pods-ImpressionAdapter_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImpressionAdapter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImpressionAdapter_Tests/Pods-ImpressionAdapter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImpressionAdapter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E71A2553EADEDFBBFBA84467418E009F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC932F373F3778986C58533D670F68E /* Pods-ImpressionAdapter_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImpressionAdapter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImpressionAdapter_Example/Pods-ImpressionAdapter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImpressionAdapter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E79145650A96244CFDAD1BBCBBC6553E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B92C5BD79A081BE5C33A6975A28B219 /* ImpressionAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImpressionAdapter/ImpressionAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImpressionAdapter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImpressionAdapter/ImpressionAdapter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ImpressionAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2083967E984DB27FADA95027E3B45B63 /* Build configuration list for PBXNativeTarget "Pods-ImpressionAdapter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBA8251DBA098A2A73D28FD5FDA1506 /* Debug */,
+				D57E506E5FC06FF58568343E83480435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8378E44DB992933306BFCB95341CB7 /* Build configuration list for PBXNativeTarget "ImpressionAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426FFCC65F80A917C5673AF1A156443D /* Debug */,
+				E79145650A96244CFDAD1BBCBBC6553E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C2DD8F7DE5D73B27DF17DD409FE89C /* Build configuration list for PBXNativeTarget "Pods-ImpressionAdapter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6D12471AA2B905485E1EF603AF3925 /* Debug */,
+				E71A2553EADEDFBBFBA84467418E009F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

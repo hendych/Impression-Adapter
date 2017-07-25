@@ -42,9 +42,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6424269D8BE9BAE21946381B /* Pods-ImpressionAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpressionAdapter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImpressionAdapter_Example/Pods-ImpressionAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		67694413D07C7D71822351BC /* Pods_ImpressionAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImpressionAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B2B5E6A8D3DC966D68F50FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		89EF926C964E3C2ED91A534A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		910DCACA708CD29797751460 /* ImpressionAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImpressionAdapter.podspec; path = ../ImpressionAdapter.podspec; sourceTree = "<group>"; };
+		6B2B5E6A8D3DC966D68F50FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		89EF926C964E3C2ED91A534A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		910DCACA708CD29797751460 /* ImpressionAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImpressionAdapter.podspec; path = ../ImpressionAdapter.podspec; sourceTree = "<group>"; };
 		B72845355A8B522F64C08BF3 /* Pods_ImpressionAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImpressionAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A7A1B378279A4304DC5373 /* Pods-ImpressionAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImpressionAdapter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImpressionAdapter_Tests/Pods-ImpressionAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for ImpressionAdapter */,
+				607FACD21AFB9204008FA782 /* Example */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BE8BF952E208BDBC95C31403 /* Pods */,
@@ -99,7 +99,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for ImpressionAdapter */ = {
+		607FACD21AFB9204008FA782 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -109,7 +109,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for ImpressionAdapter";
+			name = Example;
 			path = ImpressionAdapter;
 			sourceTree = "<group>";
 		};

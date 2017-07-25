@@ -1,0 +1,22 @@
+{
+  "name": "ImpressionAdapter",
+  "version": "0.1.0",
+  "summary": "A short description of ImpressionAdapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hendych/ImpressionAdapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hendych": "hendy@kurio.co.id"
+  },
+  "source": {
+    "git": "https://github.com/hendych/ImpressionAdapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImpressionAdapter/Classes/**/*"
+}
